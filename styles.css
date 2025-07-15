@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#company-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.company {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.company:last-child {
+    border-bottom: none;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.company-vat {
+    font-size: 14px;
+    color: #666;
+}
+
+.company-address {
+    font-size: 14px;
+    color: #666;
+}
